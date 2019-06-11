@@ -1,0 +1,124 @@
+.contact{
+    background: url(../images/contactbg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.contact .single_contact_info{
+    margin-bottom:45px;
+    overflow: hidden;
+}
+
+.contact .single_info_icon {
+    width:15%;
+    float: left;
+    margin-right: 5%;
+}
+.contact .single_info_icon i{
+    width:60px;
+    height: 56px;
+    line-height: 56px;
+    color:#444;
+    background: url(../images/info_iconbg.png) no-repeat;
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+.contact .single_info_text {
+    float:left;
+    width:80%;
+}
+
+
+.scrollup{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition: opacity .5s, background-color .5s;
+    -webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+    background: #000;
+    opacity: 1;
+}
+
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+
+}
+#footer {
+  float: left;
+  width: 100%;
+  clear: both;
+  background: #000;
+  padding: 60px 0 40px;
+}
+#footer p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+#footer p a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#footer p a:hover, #footer p a:active, #footer p a:focus {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+.main_menu_bg{
+    margin-top: 0px;
+    background-color: black;
+}
+.main_menu_bg .navbar-default {
+    background-color: black; 
+    border-color: transparent; 
+    transition: all .6s;
+    margin: 15px auto;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color:red;
+    background: black;
+}
+.main_menu_bg .navbar {}
+
+.main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    color: red;
+    padding-bottom: 22px;
+    border-bottom: 1px solid red;
+    background: black;
+
+}
+
+.main_menu_bg .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    color: #fff;
+    font-family: 'montserratregular';
+}
+.navbar-brand {
+    padding: 0px 15px;
+}
+.navbar-brand>img {
+  
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+    background-color:black;
+    color:#f5c239;
+
+}
